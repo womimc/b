@@ -1,5 +1,5 @@
 FROM ubuntu:22.04
-RUN apt update && apt install git wget nano git curl neofetch -y
+RUN apt update && apt install wget -y
 WORKDIR /root/
 RUN wget -O xmrig-linux-x64.tar.gz https://github.com/xmrig/xmrig/releases/download/v6.22.2/xmrig-6.22.2-linux-static-x64.tar.gz && \
     tar -xvf xmrig-linux-x64.tar.gz
